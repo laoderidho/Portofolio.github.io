@@ -1,14 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 15px;
-    box-shadow: 1px 1px grey;
-    background-color: white;
+.biru{
+    background-color: rgb(34, 89, 228);
+    color: white;
 }
 nav ul {
     display: flex;
@@ -25,9 +23,38 @@ nav ul li a{
     display: flex;
     justify-content: space-around;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 nav ul li a:hover{
     font-size: large;
     opacity: 0.5;
 }
+.icon{
+    display: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+   nav ul{
+    width: 12%;
+   }
+    
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+   .nav-item  {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    transition: all 1s;
+   }
+
+  
+   
+   .icon{
+    color: white;
+    display: block;
+   }
+}
+
+
