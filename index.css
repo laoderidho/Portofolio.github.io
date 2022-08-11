@@ -39,7 +39,7 @@ nav ul li a:hover{
 .icon{
     display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
+@media (min-width: 768px) and (max-width: 1024px) {
    nav ul{
     width: 12%;
    }
