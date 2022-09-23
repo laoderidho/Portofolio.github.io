@@ -1,6 +1,4 @@
-const icon = document.querySelector('.icon');
-const nav = document.querySelector('nav ul');
-
-icon.addEventListener('click', function(){
-    nav.classList.toggle('slide');
+window.addEventListener('scroll', ()=>{
+    const head = document.querySelector('header')
+    head.classList.toggle('sticky', window.scrollY > 0);
 })
