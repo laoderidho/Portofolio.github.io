@@ -86,3 +86,6 @@ li:after{
 li:hover:after{
     width: 100%;
 }
+ul li a:hover{
+    color: green;
+}
