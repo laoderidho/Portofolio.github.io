@@ -5,7 +5,9 @@
 }
 
 body{
-    background-color: #000;
+    background-color: black;
+    height: 200vh;
+    width: 200vh;
 }
 nav{
     position: fixed;
@@ -56,14 +58,14 @@ nav ul li a{
 
 nav.sticky{
     padding: 5px 100px;
-    background-color: #fff;
+    background-color: black;
 }
 nav.sticky ul li a {
-    color: black;
+    color: #fff;
 }
 
 nav.sticky a.logo{
-    color: black;
+    color: #fff;
 }
 li:after{
     content: ""; 
@@ -79,5 +81,8 @@ li:hover:after{
     width: 100%;
 }
 ul li a:hover{
+    color: green;
+}
+.active{
     color: green;
 }
