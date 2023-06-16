@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../public/images/netflix.jpg");
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.opacity {
+  background: rgb(0 0 0 / 40%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.logo {
+  display: flex;
+}
+
+.logo > h1 {
+  color: white;
+  font-size: 30px;
+  margin: 12px;
+}
+
+.item {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  top: 50%;
+  background-color: red;
+  display: flex; /* mengaktifkan flexbox */
+  flex-direction: column; /* mengatur arah flexbox menjadi vertical */
+  align-items: center; /* mengatur item di tengah secara horizontal */
+  justify-content: center; /* mengatur item di tengah secara vertical */
+}
+
+.item > h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item > h2 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  visibility: hidden;
+}
+
+.item > a {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-color: red;
+  padding: 5px 50px;
+  border-radius: 10px;
+  transition: all .5s;
+}
+
+.item > a:hover{
+  background-color: #b71c1c;
+}

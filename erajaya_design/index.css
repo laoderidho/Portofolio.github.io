@@ -1,0 +1,731 @@
+/* universal tag */
+a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    height: 120vh;
+    background-image: url('./public/images/Erajaya\ Plaza_07.jpg');
+    background-size: cover;
+}
+
+.jumbotron-content{
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron-title{
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron-subtitle{
+    font-size: 1.5em;
+    color: #FFFFFF;
+    font-family: 'open-sauce-one', sans-serif;
+    width: 44%;
+}
+
+.jumbotron-title , .logo, .jumbotron-subtitle{
+    margin-left: 5%;
+}
+
+/* erangers Content */
+
+.erangers{
+    margin-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#carouselExample {
+  width: 43.75rem; 
+  height: 28.125rem ; 
+  margin: 0 auto; 
+}
+
+.carousel-inner .carousel-item img {
+  width: 800px; 
+  height: 450px; 
+  object-fit: cover; 
+  border: none;
+}
+
+.erangers-content{
+   width: 25%;
+}
+
+.erangers-title, .erangers-subtitle, .erangers-button{
+    margin-bottom: 35px;
+}
+
+.erangers-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.erangers-subtitle{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'open-sauce-one', sans-serif;
+    opacity: 0.5;
+}
+.erangers-button {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    background-color: #0D2084;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #000000;     
+    border-radius: 100%;
+}
+
+/* featured Opening */
+
+.featured-opening{
+    margin-top: 50px;
+    height: 130vh;
+    background-image: url('./public/images/About\ Erajaya.png');
+    background-size: cover;
+}
+
+.custom-slider-arrow{
+    color: black !important;
+}
+
+.featured-opening-title{
+    font-size: 69px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.card-item{
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 40px;
+    position: relative;
+}
+
+.card-featured-opening{
+    width: 100%;
+    margin: auto;
+}
+
+.featured-opening-img{
+    text-align: center;
+}
+
+.featured-img{
+    width: 70px;
+    height: 70px;
+}
+
+.featured-opening-content{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+.featured-card-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.featured-level{
+    color: #000000;
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+.expired, .location{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+
+.detailbuton{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #0D2084;
+
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    right: 30%;
+    transition: all 0.3s ease-in-out;
+}
+
+.detailbuton:hover{
+    background-color: #0D2084;
+    color: #FFFFFF;
+}
+
+.bookmark-icon{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #e6edf4 ;
+    font-size: 50px;
+}
+
+.button-see-all{
+    text-align: center;
+}
+
+.see-all-featured-opening{
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    margin: auto;
+    background-color: #0D2084;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'popins', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+/* about Erajaya */
+
+.about{
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url('./public/images/About\ Erajaya-2.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-erajaya{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-erajaya-title{
+    font-size: 69px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 40%;
+}
+
+.about-erajaya-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.second-image{
+    transform: translateY(60px);
+}
+
+.erajaya-companies{
+    width: 50%;
+}
+
+.erajaya-companies-logo{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.erajaya-companies-content{
+    font-size: 22px;
+    opacity: 0.6;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    font-family: 'open-sauce-one', sans-serif;
+}
+
+.find-out-button{
+    text-decoration: none;
+    display: block;
+    background-color: #0D2084;
+    color: #ffffff;
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* vission mission core value */
+
+.vission-mission{
+    margin-top: 200px;
+    height: 120vh;
+    background-image: url('./public/images/About\ Erajaya-4.png');
+    display: flex;
+}
+
+.vission-mission-content{
+    width: 50%;
+}
+
+.vission-title, .mission-title, .ilead-title{
+    font-size: 69px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.vission-content, .mission-content{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'open-sauce-one', sans-serif;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.vission-content{
+    width: 65%;
+}
+
+.ilead-core-values{
+    width: 100%;
+}
+
+.ilead-title{
+    width: 100%;
+}
+
+.list-core-values{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+.list-core-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.list-core-content{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'open-sauce-one', sans-serif;
+    color: #FFFFFF;
+    width: 80%;
+}
+.tech-savvy{
+    width: 90%;
+}
+
+/* our line of verticals */
+
+.our-line-of-verticals{
+    height: 100vh;
+    background-image: url('./public/images/About\ Erajaya-5.png');
+    background-size: cover;
+}
+
+.verticals-title{
+    font-size: 69px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card{
+    width: 15rem;
+}
+.card-img-top{
+    width: 15rem;
+    height: 9rem;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    width: 13rem;
+}
+
+.card-text{
+    font-size: 1em;
+    opacity: 0.5;
+    color: #000000;
+    font-family: 'open-sauce-one', sans-serif;
+}
+.logo_icon{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+}
+.logo_brand{
+    width: 5em;
+    object-fit: contain;
+}
+
+.logo-big-brand{
+    width: 2rem;
+    object-fit: contain;
+}
+
+.logo_brand, .logo-big-brand{
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.verticals-button{
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    background-color: #0D2084;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size:1.2em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    margin: auto;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+/* grow your carrer with us */
+
+.grow-your-carrer{
+    height: 130vh;
+    background-image: url('./public/images/internal-audit-thumbnail-2-_x373.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12vh;
+}
+
+.grow-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.grow-title{
+    font-size: 69px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width:700px;
+}
+
+.testimoni{
+    width: 90%;
+    margin: auto;
+}
+.testimoni-slider{
+    width: 22em;
+    background-color: white;
+    height: 27em;
+    margin: 1em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.testimoni-img{
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimoni-text{
+    width: 16em;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.testimoni-title{
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    width: 15rem;
+    margin-top: 1em;
+    text-align: center;
+}
+
+/* Ready to kickstart */
+
+.ready-to-kickstart{
+    height: 120vh;
+}
+
+.ready-title{
+    font-size: 69px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width:129vh;
+}
+
+.ready-content{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'open-sauce-one', sans-serif;
+    color: #000000;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.uk-card{
+    width: 17.4em;
+    height: 7.5em;
+    background-color: #0D2084;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.ready-job-vacancies{
+    width: 78%;
+    display: flex;
+    margin: auto;
+}
+
+.ready-job-vacancies-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.jobs-title{
+    font-size: .78em;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    width: 13rem;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.jobs-content{
+    font-size: .80em;
+    opacity: 0.9;
+    color: #FFFFFF;
+    font-family: 'open-sauce-one', sans-serif;
+    width: 13rem;
+    margin-left: 1em;
+    text-align: center;
+    position: absolute;
+    bottom: .01em;
+}
+
+/* live at erajaya */
+
+.live-erajaya{
+    height: 80vh;
+}
+
+.live-title{
+    font-size: 69px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width:129vh;
+}
+
+.live-text{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'open-sauce-one', sans-serif;
+    color: #000000;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.live-card-content{
+    display: flex;
+    justify-content: space-around;
+    height: 12em;
+}
+
+.live-card-item{
+    border: 1.5px solid #000000;
+    width: 23em;
+    height: 19em;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.live-img{
+    width: 100%;
+    height: 13em;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.link-event{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em;
+}
+
+.link-event:hover{
+    color: black !important;
+}
+
+/* lets engange with us */
+.find-more{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'open-sauce-one', sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    margin: 5em;
+}
+
+.find-more:hover{
+    color: black !important;
+}
+
+.find-more > span > img{
+    margin-left: .5em;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.lets-engage{
+    height: 130vh;
+    width: 100%;
+    background-image: url('./public/images/About\ Erajaya-9.png');
+    background-size: cover;
+}
+
+.lets-engage-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    width: 70vh;
+    margin-top: 3em;
+    text-indent: .3em;
+}
+
+.lets-engage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.lets-engage-text{
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    font-family: 'open-sauce-one', sans-serif;
+    color: #000000;
+    width: 67vh;
+    margin-top: 30px;
+}
+
+.link-sosmed{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'open-sauce-one', sans-serif;
+    font-size: 1.34em;
+    font-weight: bold;
+    margin: .5em;
+    background-color: #0D2084;
+    color: #e6edf4;
+    padding: .25em;
+    border-radius: 30px;
+    width: 15em;
+}
+
+.link-sosmed > span{
+    margin-right: .5em;
+    margin-left: .5em;
+    font-size: 1em;
+}
+
+/* footer */
+
+footer{
+    background-color: #0D2084;
+    height: 40vh;
+}
+
+.footer-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3em;
+    text-align: center;
+}
