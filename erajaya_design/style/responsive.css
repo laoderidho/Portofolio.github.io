@@ -1,0 +1,387 @@
+@media screen and (max-width: 1024px) {
+    /* jumbotron */
+
+    .jumbotron{
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .jumbotron-content{
+        transform: translateY(5vh);
+    }
+    .jumbotron-title{
+        font-size: 4em;
+    }
+    .jumbotron-content{
+        font-size: 1em;
+    }
+
+    /* erangers content */
+    #carouselExample, .carousel-inner .carousel-item img{
+        width: 30em;
+        height: 20em;
+    }
+
+    .erangers-title{
+        font-size: 2.5em;
+    }
+
+    .erangers-subtitle{
+        font-size: .9em;
+        opacity: 1;
+        width: 15em;
+        line-height: normal;
+    }
+
+    .erangers-button{
+        width: 100%;
+    }
+
+    /* Featured Opening */
+    .card-featured-opening{
+        width: 33em;
+        margin: auto;
+    }
+
+    .see-all-featured-opening{
+        width: 50%;
+    }
+
+    /* About Erajaya */
+
+    .about{
+        margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-erajaya{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .erajaya-companies-content{
+        width: 100%;
+    }
+    
+    .erajaya-companies{
+        width: 70%;
+    }
+
+
+    .find-out-button{
+        margin: auto;
+        width: 80%;
+    }
+
+
+    /* Vission mission */
+
+    .vission-mission{
+        height: 130vh;
+    }
+
+    .vission-mission-core-values{
+        flex-direction: column;
+    }
+
+    .vission, .mission{
+        width: 45em;
+    }
+
+    .vission-content{
+        width: 100%;
+    }
+
+    .list-core-values{
+        height: 30em;
+    }
+
+    .list-core{
+        width: 20em;
+    }
+
+    /* Our Line of verticals */
+
+    .verticals-title{
+        font-size: 3.6em;
+    }
+    .verticals-button{
+        width: 50%;
+    }
+
+    .logo_icon{
+        flex-wrap: wrap;
+    }
+
+    /* grow your carrer */
+    
+    .testimoni{
+        width: 70vh;
+        margin: auto;
+    }
+
+    /* ready to kickstart */
+
+    .ready-title{
+        width: 90%;
+        font-size: 3em;
+    }
+
+
+    /* life at erajaya */
+    .live-title{
+        width: 90%;
+    }
+
+    .era-list-event{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .era-event{
+        width: 100%;
+        height: 25em;
+    }
+
+    .era-event img{
+        width: 100%;
+        height: 20em;
+    }
+
+    /* lets enggage with us */
+
+    .lets-engage-title{
+        width: 60%;
+    }
+
+    .lets-engage-text{
+        width: 50%;
+    }
+
+    /* FOOTER */
+
+    .submit-email{
+        height: 16em;
+    }
+}
+
+
+/* mobile media queries */
+@media screen and (max-width: 767px) {
+    /* erajaya group of companies */
+    body{
+        position: absolute;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .jumbotron-title{
+        font-size: 3em;
+        width: 80%;
+    }
+
+    .jumbotron-subtitle{
+        font-size: 1.2em;
+        width: 90%;
+    }
+
+    /* erangers */
+    .erangers{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .erangers-content{
+        width: 90%;
+    }
+
+    .erangers-title{
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    .erangers-subtitle{
+        font-size: .8em;
+        width: 100%;
+        text-align: center;
+    }
+
+    #carouselExample, .carousel-inner .carousel-item img{
+        width: 23em;
+        height: 15em;
+    }
+    
+    /* featured Opening */
+
+    .featured-opening-title{
+        font-size: 2em;
+    }
+    .card-featured-opening{
+        width: 100%;
+        margin: auto;
+    }
+
+    .card-item{
+        width: 85%;
+        margin: 3em;
+    }
+
+    /* about erajaya */
+
+    .about-erajaya-title{
+        font-size: 2em;
+    }
+
+    .erajaya-companies-content{
+        font-size: 1em;
+    }
+
+    .find-out-button{
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    /* vission mission Ilead core values */
+
+    .vission-mission{
+        height: 120vh;
+    }
+    .vission-title, .mission-title{
+        font-size: 3em;
+    }
+
+    .vission-content{
+        width: 50%;
+        font-size: 1.3em;
+    }
+    
+    .list-core{
+        width: 60%;
+    }
+
+    .ilead-title{
+        font-size: 2.5em;
+    }
+
+    .list-core-title{
+        font-size: 1.5em;
+    }
+
+    .list-core-content{
+        font-size: 1em;
+    }
+
+    .vission-mission{
+        height: 135vh;
+    }
+
+    /* Our Line of verticals */
+
+    .verticals-title{
+        font-size: 2.5em;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+        background: transparent;
+    }
+
+    .card-img-top{
+        width: 90%;
+    }
+
+    .card-text{
+        width: 90%;
+    }
+
+    .verticals-button{
+        width: 90%;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    /* grow your carrer with us */
+    .grow-title{
+        font-size: 2.5em;
+        width: 80%;
+    }
+
+    .testimoni{
+        width: 100%;
+        margin: auto;
+    }
+
+    /* ready to Kickstart */
+    .ready-title{
+        font-size: 2em;
+    }
+
+    .jobs-title{
+        font-size: .6em;
+        width: 95%;
+    }
+
+    .jobs-content{
+        font-size: .5em;
+    }
+
+    .ready-content{
+        width: 90%;
+    }
+
+    .ready-job-vacancies{
+        width: 100%;
+    }
+
+    .ready-job-vacancies-content{
+        width: 10em;
+    }
+
+    /* life at erajaya */
+    .life-title{
+        font-size: 2.5em;
+    }
+
+    .life-text{
+        font-size: 1em;
+    }
+
+
+
+    /* footer */
+
+    .submit-email{
+        height: 12em;
+    }
+
+    .submit-title{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .submit-text{
+        font-size: .8em;
+    }
+
+    .submit-content{
+        width: 90%;
+    }
+
+    .input-email{
+        font-size: 1em
+    }
+
+    .submit-content{
+        height: 2em;
+    }
+
+    .submit-btn{
+        font-size: 1em;
+    }
+}
+
+

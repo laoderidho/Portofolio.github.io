@@ -7,40 +7,61 @@ const dataFeatured = [
     img: "Accounting & Finance.png",
   },
   {
-    name: "Finance Staf",
+    name: "Bussiness & Corporate Service",
     level: "staff",
     expired: "31 January 2021",
     location: "Jakarta",
-    img: "Accounting & Finance.png",
+    img: "Business & Corporate Services.png",
   },
   {
-    name: "Finance Staf",
+    name: "Client & Customer Services",
     level: "staff",
     expired: "31 December 2021",
     location: "Jakarta",
-    img: "Accounting & Finance.png",
+    img: "Client & Customer Services.png",
   },
   {
-    name: "Finance Staf",
+    name: "Human resources & General Affairs",
     level: "staff",
     expired: "31 December 2021",
     location: "Jakarta",
-    img: "Accounting & Finance.png",
+    img: "Human resources & General Affairs.png",
   },
   {
-    name: "Finance Staf",
+    name: "IT & Software",
     level: "staff",
     expired: "31 December 2021",
     location: "Jakarta",
-    img: "Accounting & Finance.png",
+    img: "IT & Software.png",
   },
   {
-    name: "Finance Staf",
+    name: "Law & Legal Services",
     level: "staff",
     expired: "31 December 2021",
     location: "Jakarta",
-    img: "Accounting & Finance.png",
+    img: "Law & Legal Service.png",
   },
+  {
+    name: "Media & Creative",
+    level: "staff",
+    expired: "31 December 2021",
+    location: "Jakarta",
+    img: "Media & Creative.png",
+  },
+  {
+    name: "Sales and Marketing",
+    level: "staff",
+    expired: "31 December 2021",
+    location: "Jakarta",
+    img: "Sales & Marketing.png",
+  },
+  {
+    name: "Supply Chain Management & produccement",
+    level: "staff",
+    expired: "31 December 2021",
+    location: "Jakarta",
+    img: "Supply Chain Management & Procurement.png",
+  }
 ];
 
 const featuredElement = (data) => {
@@ -49,7 +70,7 @@ const featuredElement = (data) => {
                         <div class="card-item uk-card-default uk-card-body">
                         <i class="bookmark-icon fa-solid fa-bookmark"></i>
                             <div class="featured-opening-img">
-                                <img class="featured-img" src="./public/featured_company/${data.img}" alt="Logo ${data.name}">
+                                <img class="featured-img" src="../public/featured_company/${data.img}" alt="Logo ${data.name}">
                             </div>
                             <div class="featured-opening-content">
                                 <h3 class="featured-card-title">${data.name}</h3>
@@ -83,5 +104,5 @@ for (let i = 0; i < brandlogo.length; i++) {
   // mouseout event
   brandlogo[i].addEventListener("mouseout", function () {
     this.style.transform = "";
-  });
+  }); 
 }
